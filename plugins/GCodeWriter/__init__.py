@@ -22,6 +22,12 @@ def getMetaData():
                 "description": catalog.i18nc("@item:inlistbox", "GCode File"),
                 "mime_type": "text/x-gcode",
                 "mode": GCodeWriter.GCodeWriter.OutputMode.TextMode
+            },
+            {
+                "extension": "g",
+                "description": catalog.i18nc("@item:inlistbox", "GCode File for Printrbot"),
+                "mime_type": "text/x-gcode",
+                "mode": GCodeWriter.GCodeWriter.OutputMode.TextMode
             }]
         }
     }
